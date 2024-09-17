@@ -1,16 +1,126 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charSet="UTF-8"/><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><link rel="apple-touch-icon" sizes="180x180" href="ydoc\images\apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="ydoc\images\favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="ydoc\images\favicon-16x16.png"/><link rel="manifest" href="ydoc\images\manifest.json"/><link rel="mask-icon" href="ydoc\images\safari-pinned-tab.svg" color="#5bbad5"/><meta name="theme-color" content="#ffffff"/><meta http-equiv="Cache-Control" content="no-transform"/><meta http-equiv="Cache-Control" content="no-siteapp"/><title>小星记账</title><link rel="stylesheet" href="ydoc\styles\style.css"/><meta name="author" content="厦门承星创想科技有限公司"/><meta name="keywords" content="小星记账,小星记账官网,小星记账下载,记账软件,自动记账"/><meta name="description" content="小星记账-次世代的自动记账新体验。小星记账官网/小星记账下载/小星记账使用手册。智能，安全，轻量的Android手机记账软件"/><meta id="releativePath" content=""/><link rel="stylesheet" href="ydoc\ydoc-plugin-search\search.css"/></head><body><div class="g-doc"><div class="m-main" id="js-panel"><header class="m-header" id="js-header"><div class="m-header-title js-logo"><a href="" target="_self"><img class="logo" width="36" src="ydoc\images\dog@1x.png"/><h6 class="name">小星记账</h6></a></div><div><div class="m-search">
-      <div class="icon">&#xf0fd;</div>
-      <input type="text" class="input js-input" placeholder="搜索" />
-      <div class="m-search-result js-search-result"></div>
-    </div></div><nav class="m-header-nav js-nav"><ul class="m-header-items"><li class="item "><a class="href" href="https://support.qq.com/products/652486">产品社区</a></li><li class="item "><a class="href" href="https://support.qq.com/products/652486/faqs-more/">常见问题</a></li><li class="item "><a class="href" href="https://support.qq.com/products/652486/change-log">更新日志</a></li></ul></nav><div id="js-nav-btn" class="m-header-btn ui-font-ydoc"></div></header><div class="m-content" id="js-content"><div class="g-home"><section class="m-section home"><div class="m-section-container"><div class="m-section-title"><h4 class="name">次世代的自动记账新体验</h4><p class="desc">智能、安全、轻量的本地记账应用</p><div class="m-section-btngroup"><a href="https://www.coolapk.com/apk/com.cxincx.xxjz"><div class="btn ">立即下载</div></a><a href="https://support.qq.com/products/652486/change-log"><div class="btn btn-ghost">更新日志&gt;</div></a></div></div></div></section><section class="m-section feature"><div class="m-section-container"><div class="m-section-box"><div class="item"><h6 class="title">轻松记账</h6><p class="desc">支持微信、支付宝、云闪付、数字人民币、银行短信等常见支付场景的自动识别，一键记账。同时提供语音、模板、周期等多种记账方式，助您轻松记账！</p></div><div class="item"><h6 class="title">资产管理</h6><p class="desc">帮您轻松掌握自己的资产、负债情况，信用卡账户更有刷卡推荐、还款提醒、年费管理等贴心小功能！</p></div><div class="item"><h6 class="title">丰富配套</h6><p class="desc">围绕记账、查账、统计、管理等方面提供全面的配套功能，满足您的多样化需求！</p></div><div class="item"><h6 class="title">安全无忧</h6><p class="desc">本地运行+云盘备份，支持阿里云盘、坚果云等多种备份方式，确保数据安全不丢失！</p></div></div></div></section></div><footer class="m-footer"><div class="m-footer-container"><div class="m-footer-links"></div><div class="m-footer-title"><p class="copyright">©2021-2024 厦门承星创想科技有限公司</p><p><a class="href" href="https://beian.miit.gov.cn/">闽ICP备2021010355号</a></p></div></div></footer></div></div></div><div></div><script>
-    var $content = document.getElementById('js-content');
-    var $summaryItems = Array.prototype.slice.call(document.querySelectorAll('#js-menu .href'));
-    var $menu = document.getElementById('js-menu');
-    if ($menu && sessionStorage.menuScrollTop) {
-		$menu.scrollTop = sessionStorage.menuScrollTop;
-    }
-    // 刷新页面但不切换 pathname 的时候，内容区恢复到记忆的高度
-    if ($content && sessionStorage.contentScrollTop && window.location.pathname == sessionStorage.locationPathname) {
-      $content.scrollTop = sessionStorage.contentScrollTop;
-    }
-    sessionStorage.setItem('locationPathname', window.location.pathname);</script><script src="ydoc\scripts\plugins\dollar.min.js"></script><script src="ydoc\scripts\plugins\responsive-nav.min.js"></script><script src="ydoc\scripts\plugins\slideout.min.js"></script><script src="ydoc\scripts\app.js"></script><script src="ydoc\ydoc-plugin-search\core.js"></script><script src="ydoc\ydoc-plugin-search\search.js"></script><script src="search_json.js"></script></body></html>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>小星记账-次世代的自动记账新体验</title>
+    <meta charSet="UTF-8"/>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="author" content="厦门承星创想科技有限公司"/>
+    <meta name="keywords" content="小星记账,小星记账官网,小星记账下载,自动记账,手机记账"/>
+    <meta name="description"
+          content="小星记账，一款全新发布的高质量本地记账应用。创新的自动记账功能，让您轻松养成记账好习惯。"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="landing is-preload">
+
+<div id="page-wrapper">
+
+    <header id="header" class="alt">
+        <h1><a href="index.html">小星记账</a></h1>
+        <nav id="nav">
+            <ul>
+                <li class="special">
+                    <a href="#menu" class="menuToggle"><span></span></a>
+                    <div id="menu">
+                        <ul>
+                            <li><a href="https://support.qq.com/products/652486">产品社区</a></li>
+                            <li>
+                                <a href="https://support.qq.com/products/652486/faqs-more/">常见问题</a>
+                            </li>
+                            <li>
+                                <a href="https://support.qq.com/products/652486/change-log">更新日志</a>
+                            </li>
+                            <li><a href="https://www.coolapk.com/apk/com.cxincx.xxjz">下载地址</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="banner">
+        <div class="inner">
+            <h2>小星记账</h2>
+            <p>次世代的自动记账新体验<br/>
+                智能、安全、轻量的本地记账应用<br/></p>
+            <ul class="actions special">
+                <li><a href="https://www.coolapk.com/apk/com.cxincx.xxjz" class="button primary">立即下载</a>
+                </li>
+            </ul>
+        </div>
+        <a href="#three" class="more scrolly">了解更多</a>
+    </section>
+
+    <section id="three" class="wrapper style3 special">
+        <div class="inner">
+            <header class="major">
+                <h2>引领潮流，重塑记账新体验</h2>
+                <p>便捷的自动记账交互 · 完善的资产负债管理 · 丰富的统计报表分析<br/>
+                    酷安评分9.4 备受好评的全新一代记账产品</p>
+            </header>
+            <ul class="features">
+                <li class="icon fa-paper-plane-o">
+                    <h3>轻松上手</h3>
+                    <p>小星记账，让记账变得前所未有的简单。无论是记账小白还是资深用户，都能在几分钟内掌握核心操作，享受即刻上手的便捷！</p>
+                </li>
+                <li class="icon fa-code" aria-hidden="true">
+                    <h3>自动记账</h3>
+                    <p>支持微信、支付宝、云闪付、数字人民币、美团、京东、抖音、拼多多、银行短信等常见支付场景的自动识别，一键记账！</p>
+                </li>
+                <li class="icon fa-clone" aria-hidden="true">
+                    <h3>资产管理</h3>
+                    <p>帮您轻松掌握自己的资产、负债情况，信用卡账户更有刷卡推荐、还款提醒、年费管理等贴心小功能！</p>
+                </li>
+                <li class="icon fa-circle-o-notch" aria-hidden="true">
+                    <h3>报表统计</h3>
+                    <p>多维度的收支统计和资产报表，助您明晰财务状况，合理规划支出，积累更多财富！</p>
+                </li>
+                <li class="icon fa-hdd-o" aria-hidden="true">
+                    <h3>云盘备份</h3>
+                    <p>本地运行 + 云盘备份，不受网络限制，随时随地使用。支持阿里云盘、坚果云等多种备份方式，确保数据安全不丢失！</p>
+                </li>
+                <li class="icon fa-moon-o">
+                    <h3>深浅切换</h3>
+                    <p>小星记账不仅功能强大，更加拥有简约美观的UI设计。我们精心设计的深浅配色切换，让您随时都拥有极致的视觉体验！</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="cta" class="wrapper style4">
+        <div class="inner">
+            <header>
+                <h2>欢迎使用小星记账</h2>
+                <p>您可以在我们的产品社区中浏览常见问题，查看更新日志，提交BUG反馈与改进建议</p>
+            </header>
+            <ul class="actions stacked">
+                <li><a href="https://www.coolapk.com/apk/com.cxincx.xxjz" class="button fit primary">立即下载</a></li>
+                <li><a href="https://support.qq.com/products/652486" class="button fit">产品社区</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <ul class="copyright">
+            <li id="copyright"></li>
+            <li><a href="https://beian.miit.gov.cn/">闽ICP备2021010355号</a></li>
+        </ul>
+    </footer>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
