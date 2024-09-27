@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /config/
+Disallow: /doc/
+Disallow: /privacy/
+Disallow: /user/
+Disallow: /agreement/
