@@ -1,3 +1,4 @@
 *.md
 .idea/
 support/build.bat
+change-log/build.bat
