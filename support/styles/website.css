@@ -1,0 +1,5 @@
+/* 针对 GitBook 中的代码块 */
+.markdown-section pre code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
