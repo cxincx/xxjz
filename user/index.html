@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'><meta name="robots" content="noindex, nofollow">
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
 
 <style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
 .mac-os-11 { --title-bar-height:28px; }
@@ -22,8 +22,6 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
@@ -51,7 +49,7 @@ sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inh
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
-tr { break-inside: avoid; break-after: auto; }
+thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
@@ -73,6 +71,7 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
 .md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
 .md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
@@ -87,7 +86,7 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; padding-bottom: 0px !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
@@ -130,6 +129,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 }
 a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 .footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
@@ -199,6 +199,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
 
 
 :root {
@@ -457,11 +458,8 @@ code {
     html {
         font-size: 13px;
     }
-    table,
     pre {
         page-break-inside: avoid;
-    }
-    pre {
         word-wrap: break-word;
     }
 }
@@ -590,9 +588,9 @@ header, .context-menu, .megamenu-content, footer{
 
 
 
-</style><title>index</title>
+</style><title>用户协议</title>
 </head>
 <body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h3 id='小星记账用户协议'><span>小星记账用户协议</span></h3><h5 id='特殊提示'><span>特殊提示</span></h5><p><span>尊敬的用户，在您使用厦门承星创想科技有限公司的产品小星记账（以下简称“我们”）提供的服务前，请仔细阅读本用户协议（以下简称“本协议”）。任何使用小星记账的用户，即表示理解、同意和遵守本协议。若您不同意，请勿继续使用本产品。</span></p><p><span>我们保留随时修改或替换本协议，或者更改、暂停服务及应用程序（包括但不限于任何功能、数据库或内容的变更可能性）的权利。届时，我们将在应用内发布通告，用户可以查阅最新版使用条款。在我们修改用户协议后，如果您不接受修改后的条款，请立即停止使用小星记账提供的服务，若您继续使用本应用将被视为接受修改后的条款。</span></p><p>&nbsp;</p><h5 id='知识产权声明'><span>知识产权声明</span></h5><p><span>除小星记账中涉及广告的知识产权外，我们在服务中提供的内容（包括但不限于网页、文字、图片、音频、视频、图表等）和提供服务时所依托软件的著作权、专利权及其他知识产权均归厦门承星创想科技有限公司所有。任何人未经厦门承星创想科技有限公司事先书面同意，不得以任何形式修改、复制、转载、展示、使用应用程序中部分或全部信息或作其他处理，也不得向他人表明有权处理。</span></p><p>&nbsp;</p><h5 id='法律责任'><span>法律责任</span></h5><p><span>若我们发现或收到他人举报或投诉您违反本协议约定的，我们有权不经通知随时对相关内容进行审查、删除，并视情节轻重对违规用户处以包括但不限于警告、密钥封禁、设备封禁、功能封禁的处罚，且通知您处理结果。</span></p><p><span>我们有权依合理判断对违反有关法律法规或本协议规定的行为进行处罚，对违法违规的任何用户采取适当的法律行动，并依据法律法规保存有关信息向有关部门报告等。因您违反本协议约定，导致或产生的任何第三方主张的任何索赔、要求或损失，包括但不限于合理的律师费、诉讼费等，您应当赔偿我们与合作公司、关联公司，并使之免受损害。</span></p><p><span>我们向您提供的信息仅供您参考，并不构成保证。我们将在合理的范围内尽力保证该等信息准确，但无法保证其中没有任何错误。对于因使用（或无法使用）小星记账出现的任何损害，我们将不承担责任。任何情况下我们对因我们的服务造成的损失承担的全部责任不超过造成损失的订单金额，除非此类损害是由我们的故意或重大疏忽造成的。</span></p><p><span>您通过小星记账获得的服务质量完全由厦门承星创想科技有限公司提供保证。您在服务中如存在违约行为，相关责任将由您承担。</span></p><p>&nbsp;</p><h5 id='不可抗力及其他免责事由'><span>不可抗力及其他免责事由</span></h5><p><span>请您理解并确认，在使用本服务的过程中，可能会遇到不可抗力等风险因素，使服务发生中断。不可抗力是指不能预见、不能克服或不能避免且对一方或双方造成重大影响的客观事件，包括但不限于自然灾害、网络服务质量、第三方平台服务质量等。出现上述情况时，我们将努力在第一时间与相关单位配合，及时进行修复，但是由此给您或第三方造成的损失，我们及合作单位在法律允许的范围内免责。</span></p><p><span>请您理解并确认，在使用服务过程中存在来自任何他人的包括误导性的、欺骗性的、威胁性的、诽谤性的、令人反感的或非法的信息，或侵犯他人权利的匿名或冒名的信息，以及伴随该等信息的行为，我们将不承担任何由此导致的您或第三方的任何损失的责任。您应加强信息安全及资料的保护意识，以免遭致损失和骚扰。</span></p><p><span>请您理解并确认，我们需要定期或不定期地对小星记账或相关的设备进行检修或者维护，如因此类情况而造成服务在合理时间内的中断，我们将不对此承担任何责任，但我们会事先进行通告。</span></p><p>&nbsp;</p><h5 id='其他'><span>其他</span></h5><p><span>厦门承星创想科技有限公司郑重提醒用户注意本协议中免除责任和限制用户权利的条款，请用户仔细阅读，自主考虑风险。未成年人应当在法定监护人的陪同下阅读本协议。</span></p><p><span>本协议适用于中华人民共和国法律，关于本协议履行中发生的任何争议，用户同意提交厦门仲裁委员会仲裁。</span></p></div></div>
+<div id='write'  class=''><h3 id='小星记账用户协议'><span>小星记账用户协议</span></h3><h5 id='特殊提示'><span>特殊提示</span></h5><p><span>尊敬的用户，在您使用厦门承星创想科技有限公司的产品小星记账（以下简称“我们”）提供的服务前，请仔细阅读本用户协议（以下简称“本协议”）。任何使用小星记账的用户，即表示理解、同意和遵守本协议。若您不同意，请勿继续使用本产品。</span></p><p><span>我们保留随时修改或替换本协议，或者更改、暂停服务及应用程序（包括但不限于任何功能、数据库或内容的变更可能性）的权利。届时，我们将在应用内发布通告，用户可以查阅最新版使用条款。在我们修改用户协议后，如果您不接受修改后的条款，请立即停止使用小星记账提供的服务，若您继续使用本应用将被视为接受修改后的条款。</span></p><p>&nbsp;</p><h5 id='知识产权声明'><span>知识产权声明</span></h5><p><span>除小星记账中涉及广告的知识产权外，我们在服务中提供的内容（包括但不限于网页、文字、图片、音频、视频、图表等）和提供服务时所依托软件的著作权、专利权及其他知识产权均归厦门承星创想科技有限公司所有。任何人未经厦门承星创想科技有限公司事先书面同意，不得以任何形式修改本服务所依托的软件、使用针对本软件的修改工具，亦不得修改、复制、转载、展示、使用应用程序中部分或全部信息及作其他处理，也不得向他人表明有权处理。</span></p><p>&nbsp;</p><h5 id='法律责任'><span>法律责任</span></h5><p><span>若我们发现或收到他人举报或投诉您违反本协议约定的，我们有权不经通知随时对相关内容进行审查、删除，并视情节轻重对违规用户处以包括但不限于警告、密钥封禁、设备封禁、功能封禁的处罚，且通知您处理结果。</span></p><p><span>我们有权依合理判断对违反有关法律法规或本协议规定的行为进行处罚，对违法违规的任何用户采取适当的法律行动，并依据法律法规保存有关信息向有关部门报告等。因您违反本协议约定，导致或产生的任何第三方主张的任何索赔、要求或损失，包括但不限于合理的律师费、诉讼费等，您应当赔偿我们与合作公司、关联公司，并使之免受损害。</span></p><p><span>我们向您提供的信息仅供您参考，并不构成保证。我们将在合理的范围内尽力保证该等信息准确，但无法保证其中没有任何错误。对于因使用（或无法使用）小星记账出现的任何损害，我们将不承担责任。任何情况下我们对因我们的服务造成的损失承担的全部责任不超过造成损失的订单金额，除非此类损害是由我们的故意或重大疏忽造成的。</span></p><p><span>您通过小星记账获得的服务质量完全由厦门承星创想科技有限公司提供保证。您在服务中如存在违约行为，相关责任将由您承担。</span></p><p>&nbsp;</p><h5 id='不可抗力及其他免责事由'><span>不可抗力及其他免责事由</span></h5><p><span>请您理解并确认，在使用本服务的过程中，可能会遇到不可抗力等风险因素，使服务发生中断。不可抗力是指不能预见、不能克服或不能避免且对一方或双方造成重大影响的客观事件，包括但不限于自然灾害、社会事件、政府行为、网络服务质量、第三方平台服务质量等。出现上述情况时，我们将努力在第一时间与相关单位配合，及时进行修复，但是由此给您或第三方造成的损失，我们及合作单位在法律允许的范围内免责。</span></p><p><span>请您理解并确认，在使用服务过程中存在来自任何他人的包括误导性的、欺骗性的、威胁性的、诽谤性的、令人反感的或非法的信息，或侵犯他人权利的匿名或冒名的信息，以及伴随该等信息的行为，我们将不承担任何由此导致的您或第三方的任何损失的责任。您应加强信息安全及资料的保护意识，以免遭致损失和骚扰。</span></p><p><span>请您理解并确认，我们需要定期或不定期地对小星记账或相关的设备进行检修或者维护，如因此类情况而造成服务在合理时间内的中断，我们将不对此承担任何责任，但我们会事先进行通告。</span></p><p>&nbsp;</p><h5 id='其他'><span>其他</span></h5><p><span>厦门承星创想科技有限公司郑重提醒用户注意本协议中免除责任和限制用户权利的条款，请用户仔细阅读，自主考虑风险。未成年人应当在法定监护人的陪同下阅读本协议。</span></p><p><span>本协议适用于中华人民共和国法律，关于本协议履行中发生的任何争议，用户同意提交厦门仲裁委员会仲裁。</span></p></div></div>
 </body>
 </html>
